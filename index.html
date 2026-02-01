@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>BTGenBot-2</title>
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="BTGenBot-2">
+  <meta property="og:title" content="BTGenBot-2"/>
+  <meta property="og:description" content="BTGenBot-2"/>
+  <meta property="og:url" content="https://btgenbot-2.github.io/btgenbot-2/"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+<!--   <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/> -->
+
+
+  <meta name="twitter:title" content="BTGenBot-2">
+  <meta name="twitter:description" content="BTGenBot-2">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+<!--   <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image"> -->
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="BTGenBot-2">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+<!--   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico"> -->
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+  
+<body>
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">BTGenBot-2:<br>Efficient Behavior Tree Generation with Small Language Models</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a>Anonymous Author(s)</a><sup>*</sup>
+              </span>
+<!--               <span class="author-block">
+                <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,
+              </span>
+              <span class="author-block">
+                <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
+              </span> -->
+            </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block">Anonymous Institution Name</span>
+<!--                     <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span> -->
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+                    
+
+                    <!-- Supplementary PDF link -->
+<!--                     <span class="link-block">
+                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>Supplementary</span>
+                    </a>
+                  </span> -->
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+                <!-- Model Link. -->
+                <span class="link-block">
+                  <a href="https://huggingface.co/YOUR_HF"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <img src="static/images/hf_icon.svg" />
+                    </span>
+                    <span>Models</span>
+                  </a>
+
+                  <div class="is-size-6 publication-authors">
+                    <span class="author-block">(Code and models available soon, publicly released after the submission process)</span>
+                  </div>
+
+                <!-- ArXiv abstract Link -->
+<!--                 <span class="link-block">
+                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Main image-->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img src="static/images/front_page.png"/>
+      <h2 class="subtitle has-text-centered">
+        We present <strong>BTGenBot-2</strong>, a 1B-parameter open-source small language model (SLM), trained on 5k natural language instructions and behavior tree pairs from a synthetic instruction-following dataset. BTGenBot-2 achieves state-of-the-art performance in generating directly executable behavior trees. We publicly release our synthetic dataset, model weights, codebase, and the BT Benchmark.
+      </h2>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="hero is-light is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns is-multiline is-centered">
+        <div class="column is-one-third">
+          <div class="box has-text-centered">
+            <video poster="" autoplay controls muted loop playsinline style="width: 100%;">
+              <source src="static/videos/warehouse_carter_16_9.mp4" type="video/mp4">
+            </video>
+            <p>NVIDIA Nova Carter navigation in a warehouse</p>
+          </div>
+        </div>
+        <div class="column is-one-third">
+          <div class="box has-text-centered">
+            <video poster="" autoplay controls muted loop playsinline style="width: 100%;">
+              <source src="static/videos/task1_16_9.mp4" type="video/mp4">
+            </video>
+            <p>Divide objects based on specific properties</p>
+          </div>
+        </div>
+        <div class="column is-one-third">
+          <div class="box has-text-centered">
+            <video poster="" autoplay controls muted loop playsinline style="width: 100%;">
+              <source src="static/videos/office_multiple_carter_16_9.mp4" type="video/mp4">
+            </video>
+            <p>Multiple NVIDIA Nova Carter navigation in office</p>
+          </div>
+        </div>
+        <div class="column is-one-third">
+          <div class="box has-text-centered">
+            <video poster="" autoplay controls muted loop playsinline style="width: 100%;">
+              <source src="static/videos/task2_16_9.mp4" type="video/mp4">
+            </video>
+            <p>Stacking</p>
+          </div>
+        </div>
+        <div class="column is-one-third">
+          <div class="box has-text-centered">
+            <video poster="" autoplay controls muted loop playsinline style="width: 100%;">
+              <source src="static/videos/warehouse_limo_16_9.mp4" type="video/mp4">
+            </video>
+            <p>Limo navigation with fallback in a warehouse</p>
+          </div>
+        </div>
+        <div class="column is-one-third">
+          <div class="box has-text-centered">
+            <video poster="" autoplay controls muted loop playsinline style="width: 100%;">
+              <source src="static/videos/task3_16_9.mp4" type="video/mp4">
+            </video>
+            <p>Pick and place</p>
+          </div>
+        </div>
+
+      </div>
+      <br>
+      <p class="has-text-centered">Simulations in NVIDIA Isaac Sim demonstrate the effective execution of generated behavior trees across both navigation and manipulation tasks in our BT Benchmark</p>
+    </div>
+  </div>
+</section>
+
+
+
+  
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">The BTGenBot-2 Model</h2>
+        <div class="content has-text-justified has-text-centered">
+          <img src="static/images/pipeline.png" />
+          <p>
+          The model takes as input a natural language task description of a robotic task along with the set of available robot action primitives, generating a ROS-2 compatible BT in XML format. The model is adapted using a QLoRA adapter while keeping pre-trained parameters frozen. Generated BT are initially validated at inference time, checking for syntax and action-space consistency before execution. Additionally, at runtime, an inline logger tracks stack traces and blackboard states. In case of errors, the runtime parser triggers subtree regeneration for recovery.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Dataset</h2>
+
+        <!-- Subsection: Data Generation -->
+        <h3 class="title is-4">Data Generation</h3>
+        <div class="content has-text-justified has-text-centered">
+          <img src="static/images/dataset_generation.png" />
+          <p>
+            Starting with the TSE dataset, a new instruction-following dataset is created through four key steps: 
+            (1) cleanse the raw data using a Python XML parser, 
+            (2) for each original BT, use gpt-4o-mini to generate three variants, 
+            (3) repeat step 2 with the newly obtained dataset, 
+            (4) merge all resulting datasets while producing a natural-language description for each BT.  
+          </p>
+        </div>
+
+        <!-- Subsection: Dataset Sample -->
+        <h3 class="title is-4">Dataset Sample</h3>
+        <div class="columns is-vcentered">
+          <div class="column is-half has-text-centered">
+            <img src="static/images/dataset_sample.png" alt="Dataset Sample" />
+          </div>
+          <div class="column is-half">
+            <p>
+              A representative example from the generated instruction-following dataset with its three components: 
+              the <em>instruction</em> that provides system contextual information, 
+              the <em>input</em> comprising a natural-language task description and its corresponding robot actions, 
+              and the <em>output</em> showcasing the generated XML-based behavior tree.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Experiments</h2>
+
+        <!-- New Subsection: Data Curation Pipeline Effectiveness -->
+        <h3 class="title is-4">Data Curation Pipeline Effectiveness</h3>
+        <div class="columns is-vcentered">
+          <div class="column is-half">
+            <p>
+              Average ROUGE and BLEU scores (mean ± std) with increasing dataset size: 
+              <br/>ROUGE: 46.2 ± 1.94, 66.2 ± 1.94, 77.6 ± 0.80, 82.2 ± 0.75; 
+              <br/>BLEU: 27.4 ± 1.02, 48.6 ± 1.85, 68.0 ± 1.10, 74.8 ± 0.75, 
+              corresponding to 600, 1,413, 3,791, and 5,204 samples. 
+              Standard deviation evaluated across 5 runs with temperature=0.9.
+            </p>
+          </div>
+          <div class="column is-half has-text-centered">
+            <img src="static/images/data_scaling_pipeline.png" alt="Data Scaling Pipeline Results"/>
+          </div>
+        </div>
+
+        <h3 class="title is-4">Preliminary Evaluation</h3>
+        <img src="static/images/rouge_bleu.png" />
+        <div class="content has-text-justified">
+            <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <p>
+                   Evaluation on a test set of 250 BTs from the custom instruction-following dataset demonstrates that fine-tuning substantially improves performance compared to the pre-trained baselines, with BTGenBot-2 achieving the highest scores. GPT-5 Thinking performs competitively, with GPT-5 Instant and Claude Opus 4.1 falling slightly behind. The original BTGenBot is outscored by its successor, BTGenBot-2.
+                </p>
+              </tr>
+            </table>
+        </div>
+
+        <h3 class="title is-4">Validation</h3>
+        <div class="content has-text-justified has-text-centered">
+          <img src="static/images/full_validation.png" />
+          <p>
+            Overall, the results show that BTGenBot-2 delivers the strongest combination of reliability, structural fidelity, and efficiency across tasks and prompting settings. It achieves substantial gains over the previous BTGenBot and consistently outperforms proprietary models, establishing itself as a robust and effective tool for generating complex BTs from natural language instructions. 
+          </p>
+        </div>
+
+        <h3 class="title is-4">Simulation</h3>
+        <div class="content has-text-justified has-text-centered">
+          <img src="static/images/simulations.png" />
+          <p>
+           The figure presents two tasks simulated using NVIDIA Isaac Sim. The top panels illustrate a manipulation task where a robotic arm sorts cubes by color, while the bottom panels show a navigation task in which the iw.hub locates at least one box from specified positions. The left column shows the initial state, the center column displays intermediate states with the corresponding BT execution status, and the right column shows the final state. In the BT visualizations, green nodes indicate success, yellow nodes indicate a running process, and red nodes indicate failure.
+          </p>
+        </div>
+
+        <h3 class="title is-4">Real Robot Validation</h3>
+        <div class="box has-text-centered">
+          <video poster="" autoplay controls muted loop playsinline style="width: 100%;">
+            <source src="static/videos/so_arm_test.mp4" type="video/mp4">
+          </video>
+          <p>SO-ARM 101 performing manipulation tasks using behavior trees generated by BTGenBot-2</p>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- End main image -->
+
+<!-- Paper abstract -->
+<!-- <section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+<!-- End paper abstract -->
+
+
+
+<!-- Youtube video -->
+<!-- <section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <!-- Paper video. -->
+<!--       <h2 class="title is-3">Video Presentation</h2>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          
+          <div class="publication-video"> -->
+            <!-- Youtube embed code here -->
+<!--             <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> --> 
+<!-- End youtube video -->
+
+
+
+<!-- Paper poster -->
+<!-- <section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title">Poster</h2>
+
+      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
+          </iframe>
+        
+      </div>
+    </div>
+  </section> -->
+<!--End paper poster -->
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>Preprint BibTex Code Coming Soon Here</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+             <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
