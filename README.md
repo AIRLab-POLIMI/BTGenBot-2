@@ -91,7 +91,7 @@ Actions:
 [ActionName (parameters: parameter_1, parameter_2), ...]
 ```
 
-The expected output is an XML behavior tree only. The notebook extracts the final `<root>...</root>` block and saves it to `model/tree.xml`.
+The expected output is an XML behavior tree only. The notebook validates each generation against the closed node and action vocabulary in `model/allowed_primitives.yaml`. Invalid generations are rejected and retried up to three times; only a valid tree is saved to `model/tree.xml`.
 
 ## 📚 Dataset Generation
 

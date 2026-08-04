@@ -1,2 +1,5 @@
 *.vscode
 keys
+model/tree.xml
+__pycache__/
+*.py[cod]

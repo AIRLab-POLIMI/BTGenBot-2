@@ -45,3 +45,4 @@ gradio==6.9.0
 python-dotenv==1.2.2
 wandb==0.25.1
 pydantic==2.12.5
+PyYAML==6.0.2
