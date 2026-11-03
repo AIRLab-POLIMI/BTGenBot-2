@@ -1,0 +1,61 @@
+control_nodes:
+  Sequence: {}
+  Fallback: {}
+  Parallel:
+    required: [success_count, failure_count]
+  ReactiveSequence: {}
+  ReactiveFallback: {}
+  RoundRobin: {}
+  PipelineSequence: {}
+  SequenceStar: {}
+  RecoveryNode:
+    required: [number_of_retries]
+
+decorator_nodes:
+  Inverter: {}
+  ForceSuccess: {}
+  ForceFailure: {}
+  Repeat:
+    required: [num_cycles]
+  RetryUntilSuccessful:
+    required: [num_attempts]
+  KeepRunningUntilFailure: {}
+  Delay:
+    required: [delay_msec]
+  Timeout:
+    required: [msec]
+  RateController:
+    required: [hz]
+  DistanceController:
+    required: [distance]
+
+actions:
+  MoveTo:
+    required: [location]
+  ComputePathToPose:
+    required: [goal, path, planner_id]
+    optional: [server_timeout, start]
+  ComputePathThroughPoses:
+    required: [goals, path, planner_id]
+  FollowPath:
+    required: [path, controller_id]
+    optional: [goal_checker_id]
+  ClearEntireCostmap:
+    required: [service_name]
+    optional: [server_timeout]
+  TruncatePath:
+    required: [distance, input_path, output_path]
+  RemovePassedGoals:
+    required: [input_goals, output_goals, radius]
+  Spin:
+    required: [spin_dist]
+  Wait:
+    required: [wait_duration]
+  BackUp:
+    required: [backup_dist, backup_speed]
+
+conditions:
+  GoalUpdated: {}
+  GoalReached:
+    optional: [goal, threshold]
+  IsStuck: {}
